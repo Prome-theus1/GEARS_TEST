@@ -1,0 +1,419 @@
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/scanpy/_utils/__init__.py:27: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('anndata')` instead.
+  from anndata import __version__ as anndata_version
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_csv from `anndata` is deprecated. Import anndata.io.read_csv instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_excel from `anndata` is deprecated. Import anndata.io.read_excel instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_hdf from `anndata` is deprecated. Import anndata.io.read_hdf instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_loom from `anndata` is deprecated. Import anndata.io.read_loom instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_mtx from `anndata` is deprecated. Import anndata.io.read_mtx instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_text from `anndata` is deprecated. Import anndata.io.read_text instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_umi_tools from `anndata` is deprecated. Import anndata.io.read_umi_tools instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+Downloading...
+  0%|          | 0.00/9.46M [00:00<?, ?iB/s]  0%|          | 17.4k/9.46M [00:00<02:08, 73.5kiB/s]  1%|          | 71.7k/9.46M [00:00<00:57, 165kiB/s]   2%|▏         | 176k/9.46M [00:00<00:32, 290kiB/s]   4%|▍         | 368k/9.46M [00:00<00:18, 493kiB/s]  8%|▊         | 785k/9.46M [00:01<00:09, 948kiB/s] 17%|█▋        | 1.60M/9.46M [00:01<00:04, 1.77MiB/s] 19%|█▉        | 1.78M/9.46M [00:01<00:07, 1.07MiB/s] 33%|███▎      | 3.12M/9.46M [00:02<00:02, 2.23MiB/s] 36%|███▌      | 3.39M/9.46M [00:02<00:03, 1.93MiB/s] 44%|████▍     | 4.17M/9.46M [00:02<00:02, 2.31MiB/s] 49%|████▊     | 4.60M/9.46M [00:02<00:02, 2.16MiB/s] 57%|█████▋    | 5.42M/9.46M [00:03<00:01, 2.53MiB/s] 66%|██████▌   | 6.25M/9.46M [00:03<00:01, 2.81MiB/s] 75%|███████▌  | 7.12M/9.46M [00:03<00:00, 3.06MiB/s] 84%|████████▍ | 7.99M/9.46M [00:03<00:00, 3.23MiB/s] 94%|█████████▎| 8.86M/9.46M [00:04<00:00, 3.35MiB/s]100%|██████████| 9.46M/9.46M [00:04<00:00, 2.32MiB/s]
+Downloading...
+  0%|          | 0.00/168M [00:00<?, ?iB/s]  0%|          | 17.4k/168M [00:00<38:13, 73.3kiB/s]  0%|          | 62.5k/168M [00:00<19:47, 141kiB/s]   0%|          | 167k/168M [00:00<10:05, 277kiB/s]   0%|          | 376k/168M [00:00<05:26, 514kiB/s]  0%|          | 793k/168M [00:01<02:54, 960kiB/s]  1%|          | 1.61M/168M [00:01<01:32, 1.80MiB/s]  2%|▏         | 3.25M/168M [00:01<00:47, 3.45MiB/s]  3%|▎         | 4.47M/168M [00:01<00:41, 3.91MiB/s]  3%|▎         | 5.80M/168M [00:02<00:35, 4.51MiB/s]  5%|▍         | 7.87M/168M [00:02<00:27, 5.80MiB/s]  6%|▌         | 9.77M/168M [00:02<00:25, 6.30MiB/s]  8%|▊         | 12.9M/168M [00:02<00:18, 8.35MiB/s]  9%|▊         | 14.6M/168M [00:03<00:19, 7.85MiB/s]  9%|▉         | 15.4M/168M [00:03<00:23, 6.59MiB/s] 11%|█         | 17.8M/168M [00:03<00:19, 7.58MiB/s] 12%|█▏        | 19.4M/168M [00:03<00:20, 7.35MiB/s] 13%|█▎        | 21.1M/168M [00:04<00:20, 7.26MiB/s] 14%|█▎        | 22.7M/168M [00:04<00:20, 7.21MiB/s] 15%|█▍        | 24.5M/168M [00:04<00:20, 7.18MiB/s] 16%|█▌        | 26.2M/168M [00:04<00:19, 7.20MiB/s] 17%|█▋        | 28.0M/168M [00:05<00:19, 7.26MiB/s] 18%|█▊        | 29.7M/168M [00:05<00:18, 7.34MiB/s] 19%|█▊        | 31.5M/168M [00:05<00:18, 7.38MiB/s] 20%|█▉        | 33.3M/168M [00:05<00:18, 7.46MiB/s] 21%|██        | 35.2M/168M [00:05<00:17, 7.51MiB/s] 22%|██▏       | 37.0M/168M [00:06<00:17, 7.58MiB/s] 23%|██▎       | 38.8M/168M [00:06<00:16, 7.64MiB/s] 24%|██▍       | 40.7M/168M [00:06<00:16, 7.70MiB/s] 25%|██▌       | 42.4M/168M [00:07<00:18, 6.86MiB/s] 26%|██▌       | 43.1M/168M [00:07<00:21, 5.83MiB/s] 27%|██▋       | 45.5M/168M [00:07<00:16, 7.65MiB/s] 28%|██▊       | 46.8M/168M [00:07<00:17, 7.03MiB/s] 29%|██▊       | 48.2M/168M [00:07<00:18, 6.62MiB/s] 30%|██▉       | 49.6M/168M [00:08<00:18, 6.39MiB/s] 30%|███       | 51.0M/168M [00:08<00:18, 6.24MiB/s] 31%|███       | 52.4M/168M [00:08<00:18, 6.16MiB/s] 32%|███▏      | 53.9M/168M [00:08<00:15, 7.21MiB/s] 33%|███▎      | 54.7M/168M [00:08<00:17, 6.35MiB/s] 33%|███▎      | 55.4M/168M [00:09<00:19, 5.75MiB/s] 34%|███▍      | 56.8M/168M [00:09<00:18, 5.89MiB/s] 35%|███▍      | 58.3M/168M [00:09<00:15, 7.20MiB/s] 35%|███▌      | 59.1M/168M [00:09<00:17, 6.27MiB/s] 36%|███▌      | 59.8M/168M [00:09<00:18, 5.72MiB/s] 36%|███▋      | 61.3M/168M [00:10<00:17, 5.94MiB/s] 37%|███▋      | 62.9M/168M [00:10<00:17, 6.12MiB/s] 38%|███▊      | 64.4M/168M [00:10<00:16, 6.23MiB/s] 39%|███▉      | 66.0M/168M [00:10<00:13, 7.47MiB/s] 40%|███▉      | 66.8M/168M [00:10<00:15, 6.51MiB/s] 40%|████      | 67.5M/168M [00:10<00:16, 5.98MiB/s] 41%|████      | 69.1M/168M [00:11<00:16, 6.18MiB/s] 42%|████▏     | 70.7M/168M [00:11<00:15, 6.32MiB/s] 43%|████▎     | 72.2M/168M [00:11<00:12, 7.61MiB/s] 43%|████▎     | 73.1M/168M [00:11<00:14, 6.62MiB/s] 44%|████▍     | 73.8M/168M [00:11<00:15, 6.11MiB/s] 45%|████▍     | 75.4M/168M [00:12<00:12, 7.61MiB/s] 45%|████▌     | 76.2M/168M [00:12<00:14, 6.53MiB/s] 46%|████▌     | 77.0M/168M [00:12<00:15, 6.02MiB/s] 47%|████▋     | 78.6M/168M [00:12<00:14, 6.27MiB/s] 48%|████▊     | 80.2M/168M [00:12<00:11, 7.70MiB/s] 48%|████▊     | 81.0M/168M [00:12<00:13, 6.63MiB/s] 49%|████▊     | 81.8M/168M [00:13<00:14, 6.12MiB/s] 50%|████▉     | 83.4M/168M [00:13<00:11, 7.68MiB/s] 50%|█████     | 84.2M/168M [00:13<00:12, 6.57MiB/s] 51%|█████     | 85.0M/168M [00:13<00:13, 6.07MiB/s] 52%|█████▏    | 86.6M/168M [00:13<00:10, 7.68MiB/s] 52%|█████▏    | 87.5M/168M [00:13<00:12, 6.56MiB/s] 52%|█████▏    | 88.2M/168M [00:14<00:13, 6.06MiB/s] 53%|█████▎    | 89.8M/168M [00:14<00:10, 7.68MiB/s] 54%|█████▍    | 90.7M/168M [00:14<00:11, 6.55MiB/s] 54%|█████▍    | 91.5M/168M [00:14<00:12, 6.06MiB/s] 55%|█████▌    | 93.0M/168M [00:14<00:09, 7.70MiB/s] 56%|█████▌    | 93.9M/168M [00:14<00:11, 6.54MiB/s] 56%|█████▋    | 94.7M/168M [00:15<00:12, 6.07MiB/s] 57%|█████▋    | 96.3M/168M [00:15<00:09, 7.70MiB/s] 58%|█████▊    | 97.1M/168M [00:15<00:10, 6.56MiB/s] 58%|█████▊    | 97.9M/168M [00:15<00:11, 6.06MiB/s] 59%|█████▉    | 99.5M/168M [00:15<00:08, 7.69MiB/s] 60%|█████▉    | 100M/168M [00:15<00:10, 6.53MiB/s]  60%|██████    | 101M/168M [00:15<00:11, 6.05MiB/s] 61%|██████    | 103M/168M [00:16<00:08, 7.68MiB/s] 62%|██████▏   | 104M/168M [00:16<00:09, 6.53MiB/s] 62%|██████▏   | 104M/168M [00:16<00:10, 6.07MiB/s] 63%|██████▎   | 106M/168M [00:16<00:08, 7.71MiB/s] 64%|██████▎   | 107M/168M [00:16<00:09, 6.56MiB/s] 64%|██████▍   | 108M/168M [00:16<00:10, 6.05MiB/s] 65%|██████▍   | 109M/168M [00:17<00:07, 7.69MiB/s] 65%|██████▌   | 110M/168M [00:17<00:08, 6.55MiB/s] 66%|██████▌   | 111M/168M [00:17<00:09, 6.07MiB/s] 67%|██████▋   | 112M/168M [00:17<00:07, 7.71MiB/s] 67%|██████▋   | 113M/168M [00:17<00:08, 6.56MiB/s] 68%|██████▊   | 114M/168M [00:17<00:08, 6.08MiB/s] 69%|██████▉   | 116M/168M [00:18<00:06, 7.75MiB/s] 69%|██████▉   | 116M/168M [00:18<00:07, 6.59MiB/s] 70%|██████▉   | 117M/168M [00:18<00:08, 6.10MiB/s] 71%|███████   | 119M/168M [00:18<00:06, 7.76MiB/s] 71%|███████   | 120M/168M [00:18<00:07, 6.60MiB/s] 72%|███████▏  | 121M/168M [00:18<00:07, 6.13MiB/s] 73%|███████▎  | 122M/168M [00:18<00:05, 7.79MiB/s] 73%|███████▎  | 123M/168M [00:19<00:06, 6.62MiB/s] 74%|███████▎  | 124M/168M [00:19<00:07, 6.17MiB/s] 75%|███████▍  | 125M/168M [00:19<00:05, 7.84MiB/s] 75%|███████▌  | 126M/168M [00:19<00:06, 6.68MiB/s] 76%|███████▌  | 127M/168M [00:19<00:06, 6.22MiB/s] 77%|███████▋  | 129M/168M [00:19<00:04, 7.92MiB/s] 77%|███████▋  | 130M/168M [00:20<00:05, 6.75MiB/s] 78%|███████▊  | 130M/168M [00:20<00:06, 6.27MiB/s] 79%|███████▊  | 132M/168M [00:20<00:04, 7.99MiB/s] 79%|███████▉  | 133M/168M [00:20<00:05, 6.80MiB/s] 80%|███████▉  | 134M/168M [00:20<00:05, 6.67MiB/s] 80%|████████  | 135M/168M [00:20<00:04, 6.74MiB/s] 81%|████████  | 136M/168M [00:21<00:04, 6.53MiB/s] 82%|████████▏ | 137M/168M [00:21<00:03, 8.41MiB/s] 82%|████████▏ | 138M/168M [00:21<00:04, 7.03MiB/s] 83%|████████▎ | 139M/168M [00:21<00:04, 6.88MiB/s] 83%|████████▎ | 140M/168M [00:21<00:04, 6.92MiB/s] 84%|████████▎ | 141M/168M [00:21<00:03, 7.12MiB/s] 84%|████████▍ | 141M/168M [00:21<00:03, 7.13MiB/s] 85%|████████▍ | 142M/168M [00:21<00:03, 7.28MiB/s] 85%|████████▌ | 143M/168M [00:22<00:03, 7.26MiB/s] 86%|████████▌ | 144M/168M [00:22<00:03, 7.41MiB/s] 86%|████████▋ | 145M/168M [00:22<00:03, 7.37MiB/s] 87%|████████▋ | 146M/168M [00:22<00:02, 7.50MiB/s] 87%|████████▋ | 147M/168M [00:22<00:02, 7.42MiB/s] 88%|████████▊ | 148M/168M [00:22<00:02, 7.14MiB/s] 89%|████████▉ | 150M/168M [00:22<00:01, 9.30MiB/s] 90%|████████▉ | 151M/168M [00:22<00:02, 7.63MiB/s] 90%|█████████ | 152M/168M [00:23<00:02, 7.38MiB/s] 91%|█████████ | 153M/168M [00:23<00:01, 7.95MiB/s] 91%|█████████▏| 154M/168M [00:23<00:01, 7.53MiB/s] 92%|█████████▏| 155M/168M [00:23<00:01, 8.14MiB/s] 92%|█████████▏| 155M/168M [00:23<00:01, 7.28MiB/s] 94%|█████████▎| 157M/168M [00:23<00:01, 9.61MiB/s] 94%|█████████▍| 158M/168M [00:23<00:01, 7.94MiB/s] 95%|█████████▍| 159M/168M [00:24<00:01, 7.71MiB/s] 95%|█████████▌| 160M/168M [00:24<00:00, 8.33MiB/s] 96%|█████████▌| 161M/168M [00:24<00:00, 7.91MiB/s] 97%|█████████▋| 162M/168M [00:24<00:00, 8.61MiB/s] 97%|█████████▋| 163M/168M [00:24<00:00, 8.09MiB/s] 98%|█████████▊| 165M/168M [00:24<00:00, 8.81MiB/s] 98%|█████████▊| 165M/168M [00:24<00:00, 8.25MiB/s] 99%|█████████▉| 167M/168M [00:24<00:00, 9.02MiB/s]100%|█████████▉| 168M/168M [00:25<00:00, 8.42MiB/s]100%|██████████| 168M/168M [00:25<00:00, 6.69MiB/s]
+Extracting zip file...
+Done!
+These perturbations are not in the GO graph and their perturbation can thus not be predicted
+[]
+Creating pyg object for each cell in the data...
+Creating dataset file...
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:55,  2.94s/it] 10%|█         | 2/20 [00:04<00:42,  2.37s/it] 15%|█▌        | 3/20 [00:06<00:35,  2.12s/it] 20%|██        | 4/20 [00:13<01:00,  3.77s/it] 25%|██▌       | 5/20 [00:14<00:42,  2.82s/it] 30%|███       | 6/20 [00:18<00:44,  3.18s/it] 35%|███▌      | 7/20 [00:19<00:34,  2.64s/it] 40%|████      | 8/20 [00:21<00:29,  2.42s/it] 45%|████▌     | 9/20 [00:23<00:26,  2.43s/it] 50%|█████     | 10/20 [00:25<00:22,  2.22s/it] 55%|█████▌    | 11/20 [00:27<00:19,  2.17s/it] 60%|██████    | 12/20 [00:30<00:19,  2.44s/it] 65%|██████▌   | 13/20 [00:32<00:14,  2.07s/it] 70%|███████   | 14/20 [00:33<00:11,  1.92s/it] 75%|███████▌  | 15/20 [00:36<00:11,  2.31s/it] 80%|████████  | 16/20 [00:38<00:08,  2.13s/it] 85%|████████▌ | 17/20 [00:39<00:04,  1.63s/it] 90%|█████████ | 18/20 [00:40<00:03,  1.51s/it] 95%|█████████▌| 19/20 [00:40<00:01,  1.25s/it]100%|██████████| 20/20 [00:41<00:00,  1.12s/it]100%|██████████| 20/20 [00:41<00:00,  2.09s/it]
+Done!
+Saving new dataset pyg object at ./data/dixit/data_pyg/cell_graphs.pkl
+Done!
+Creating new splits....
+Saving new splits at ./data/dixit/splits/dixit_simulation_1_0.75.pkl
+Simulation split test composition:
+combo_seen0:0
+combo_seen1:0
+combo_seen2:0
+unseen_single:5
+Done!
+Creating dataloaders....
+Done!
+wandb: Tracking run with wandb version 0.25.0
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in /data/projects/31010032/xuanhong/GEARS/model_fig_2/dixit/gears/wandb/seed_1/wandb/offline-run-20260306_111919-4y1958vy
+Creating custom GO graph, this can take a few minutes
+  0%|          | 0/3946 [00:00<?, ?it/s]  0%|          | 9/3946 [00:00<00:53, 73.52it/s]  1%|          | 20/3946 [00:00<00:43, 89.98it/s]  1%|          | 33/3946 [00:00<00:38, 101.98it/s]  1%|          | 46/3946 [00:00<00:35, 109.32it/s]  1%|▏         | 59/3946 [00:00<00:34, 114.05it/s]  2%|▏         | 72/3946 [00:00<00:33, 115.41it/s]  2%|▏         | 86/3946 [00:00<00:31, 121.10it/s]  3%|▎         | 100/3946 [00:00<00:30, 124.71it/s]  3%|▎         | 113/3946 [00:00<00:31, 119.94it/s]  3%|▎         | 126/3946 [00:01<00:32, 116.81it/s]  3%|▎         | 138/3946 [00:01<00:32, 117.54it/s]  4%|▍         | 151/3946 [00:01<00:31, 119.09it/s]  4%|▍         | 164/3946 [00:01<00:31, 120.67it/s]  4%|▍         | 177/3946 [00:01<00:30, 122.93it/s]  5%|▍         | 190/3946 [00:01<00:30, 124.76it/s]  5%|▌         | 203/3946 [00:01<00:30, 122.84it/s]  5%|▌         | 217/3946 [00:01<00:29, 126.74it/s]  6%|▌         | 230/3946 [00:01<00:29, 126.26it/s]  6%|▌         | 243/3946 [00:02<00:29, 124.99it/s]  7%|▋         | 257/3946 [00:02<00:29, 124.83it/s]  7%|▋         | 270/3946 [00:02<00:29, 126.21it/s]  7%|▋         | 285/3946 [00:02<00:29, 126.08it/s]  8%|▊         | 298/3946 [00:02<00:28, 127.08it/s]  8%|▊         | 313/3946 [00:02<00:27, 131.32it/s]  8%|▊         | 327/3946 [00:02<00:27, 132.35it/s]  9%|▊         | 341/3946 [00:02<00:27, 133.26it/s]  9%|▉         | 355/3946 [00:02<00:26, 133.99it/s]  9%|▉         | 369/3946 [00:03<00:27, 131.84it/s] 10%|▉         | 384/3946 [00:03<00:26, 134.68it/s] 10%|█         | 400/3946 [00:03<00:25, 139.45it/s] 10%|█         | 414/3946 [00:03<00:26, 132.87it/s] 11%|█         | 430/3946 [00:03<00:25, 138.72it/s] 11%|█▏        | 444/3946 [00:03<00:25, 138.36it/s] 12%|█▏        | 459/3946 [00:03<00:24, 140.30it/s] 12%|█▏        | 474/3946 [00:03<00:25, 136.34it/s] 12%|█▏        | 489/3946 [00:03<00:24, 139.06it/s] 13%|█▎        | 504/3946 [00:03<00:24, 138.28it/s] 13%|█▎        | 519/3946 [00:04<00:24, 140.61it/s] 14%|█▎        | 534/3946 [00:04<00:24, 138.70it/s] 14%|█▍        | 549/3946 [00:04<00:24, 137.56it/s] 14%|█▍        | 564/3946 [00:04<00:24, 139.86it/s] 15%|█▍        | 579/3946 [00:04<00:23, 141.38it/s] 15%|█▌        | 594/3946 [00:04<00:24, 139.47it/s] 15%|█▌        | 608/3946 [00:04<00:24, 138.12it/s] 16%|█▌        | 622/3946 [00:04<00:24, 137.81it/s] 16%|█▌        | 637/3946 [00:04<00:23, 140.36it/s] 17%|█▋        | 652/3946 [00:05<00:23, 141.69it/s] 17%|█▋        | 667/3946 [00:05<00:24, 136.57it/s] 17%|█▋        | 682/3946 [00:05<00:23, 140.03it/s] 18%|█▊        | 697/3946 [00:05<00:23, 137.78it/s] 18%|█▊        | 711/3946 [00:05<00:24, 134.15it/s] 18%|█▊        | 726/3946 [00:05<00:23, 138.60it/s] 19%|█▉        | 740/3946 [00:05<00:23, 135.18it/s] 19%|█▉        | 756/3946 [00:05<00:22, 140.63it/s] 20%|█▉        | 771/3946 [00:05<00:23, 136.16it/s] 20%|█▉        | 787/3946 [00:06<00:22, 140.90it/s] 20%|██        | 802/3946 [00:06<00:22, 137.31it/s] 21%|██        | 817/3946 [00:06<00:22, 140.03it/s] 21%|██        | 832/3946 [00:06<00:22, 141.00it/s] 21%|██▏       | 847/3946 [00:06<00:22, 137.09it/s] 22%|██▏       | 863/3946 [00:06<00:21, 141.25it/s] 22%|██▏       | 878/3946 [00:06<00:22, 138.67it/s] 23%|██▎       | 892/3946 [00:06<00:22, 135.10it/s] 23%|██▎       | 908/3946 [00:06<00:21, 140.58it/s] 23%|██▎       | 923/3946 [00:06<00:21, 139.40it/s] 24%|██▎       | 937/3946 [00:07<00:21, 137.21it/s] 24%|██▍       | 952/3946 [00:07<00:21, 136.26it/s] 24%|██▍       | 966/3946 [00:07<00:21, 136.31it/s] 25%|██▍       | 982/3946 [00:07<00:20, 141.79it/s] 25%|██▌       | 997/3946 [00:07<00:21, 137.80it/s] 26%|██▌       | 1012/3946 [00:07<00:21, 139.12it/s] 26%|██▌       | 1026/3946 [00:07<00:21, 138.69it/s] 26%|██▋       | 1040/3946 [00:07<00:20, 138.47it/s] 27%|██▋       | 1054/3946 [00:07<00:21, 134.83it/s] 27%|██▋       | 1068/3946 [00:08<00:21, 135.57it/s] 27%|██▋       | 1082/3946 [00:08<00:21, 135.85it/s] 28%|██▊       | 1096/3946 [00:08<00:20, 136.04it/s] 28%|██▊       | 1110/3946 [00:08<00:20, 136.08it/s] 28%|██▊       | 1124/3946 [00:08<00:21, 132.58it/s] 29%|██▉       | 1138/3946 [00:08<00:20, 134.11it/s] 29%|██▉       | 1152/3946 [00:08<00:20, 135.01it/s] 30%|██▉       | 1166/3946 [00:08<00:20, 132.95it/s] 30%|██▉       | 1180/3946 [00:08<00:20, 134.96it/s] 30%|███       | 1194/3946 [00:08<00:20, 135.27it/s] 31%|███       | 1208/3946 [00:09<00:20, 135.43it/s] 31%|███       | 1222/3946 [00:09<00:20, 135.72it/s] 31%|███▏      | 1236/3946 [00:09<00:19, 136.27it/s] 32%|███▏      | 1250/3946 [00:09<00:19, 134.94it/s] 32%|███▏      | 1264/3946 [00:09<00:19, 135.78it/s] 32%|███▏      | 1278/3946 [00:09<00:19, 133.45it/s] 33%|███▎      | 1292/3946 [00:09<00:20, 131.33it/s] 33%|███▎      | 1306/3946 [00:09<00:19, 132.49it/s] 33%|███▎      | 1321/3946 [00:09<00:19, 133.54it/s] 34%|███▍      | 1336/3946 [00:10<00:19, 137.25it/s] 34%|███▍      | 1350/3946 [00:10<00:19, 135.64it/s] 35%|███▍      | 1365/3946 [00:10<00:18, 137.30it/s] 35%|███▍      | 1379/3946 [00:10<00:19, 134.61it/s] 35%|███▌      | 1394/3946 [00:10<00:19, 133.69it/s] 36%|███▌      | 1409/3946 [00:10<00:18, 137.15it/s] 36%|███▌      | 1423/3946 [00:10<00:18, 134.32it/s] 36%|███▋      | 1438/3946 [00:10<00:18, 134.82it/s] 37%|███▋      | 1452/3946 [00:10<00:18, 135.91it/s] 37%|███▋      | 1466/3946 [00:11<00:18, 135.92it/s] 38%|███▊      | 1480/3946 [00:11<00:18, 131.20it/s] 38%|███▊      | 1494/3946 [00:11<00:18, 132.50it/s] 38%|███▊      | 1508/3946 [00:11<00:18, 133.62it/s] 39%|███▊      | 1523/3946 [00:11<00:17, 136.91it/s] 39%|███▉      | 1537/3946 [00:11<00:17, 134.22it/s] 39%|███▉      | 1552/3946 [00:11<00:18, 132.84it/s] 40%|███▉      | 1566/3946 [00:11<00:17, 133.53it/s] 40%|████      | 1581/3946 [00:11<00:17, 137.25it/s] 40%|████      | 1595/3946 [00:11<00:17, 136.21it/s] 41%|████      | 1609/3946 [00:12<00:17, 134.12it/s] 41%|████      | 1623/3946 [00:12<00:17, 131.92it/s] 41%|████▏     | 1637/3946 [00:12<00:17, 133.62it/s] 42%|████▏     | 1651/3946 [00:12<00:17, 131.71it/s] 42%|████▏     | 1665/3946 [00:12<00:17, 132.82it/s] 43%|████▎     | 1679/3946 [00:12<00:16, 134.12it/s] 43%|████▎     | 1693/3946 [00:12<00:17, 130.92it/s] 43%|████▎     | 1708/3946 [00:12<00:16, 133.99it/s] 44%|████▎     | 1722/3946 [00:12<00:16, 134.38it/s] 44%|████▍     | 1736/3946 [00:13<00:16, 135.26it/s] 44%|████▍     | 1750/3946 [00:13<00:16, 132.58it/s] 45%|████▍     | 1765/3946 [00:13<00:16, 135.69it/s] 45%|████▌     | 1779/3946 [00:13<00:16, 131.09it/s] 45%|████▌     | 1793/3946 [00:13<00:16, 129.02it/s] 46%|████▌     | 1809/3946 [00:13<00:16, 132.78it/s] 46%|████▌     | 1825/3946 [00:13<00:15, 137.93it/s] 47%|████▋     | 1840/3946 [00:13<00:15, 138.88it/s] 47%|████▋     | 1854/3946 [00:13<00:15, 136.88it/s] 47%|████▋     | 1868/3946 [00:14<00:15, 134.73it/s] 48%|████▊     | 1884/3946 [00:14<00:14, 139.30it/s] 48%|████▊     | 1899/3946 [00:14<00:14, 141.68it/s] 49%|████▊     | 1914/3946 [00:14<00:14, 139.11it/s] 49%|████▉     | 1928/3946 [00:14<00:14, 135.53it/s] 49%|████▉     | 1944/3946 [00:14<00:14, 137.43it/s] 50%|████▉     | 1961/3946 [00:14<00:13, 143.94it/s] 50%|█████     | 1976/3946 [00:14<00:13, 143.51it/s] 50%|█████     | 1991/3946 [00:14<00:14, 138.90it/s] 51%|█████     | 2005/3946 [00:14<00:14, 137.26it/s] 51%|█████     | 2019/3946 [00:15<00:14, 136.21it/s] 52%|█████▏    | 2033/3946 [00:15<00:13, 137.11it/s] 52%|█████▏    | 2047/3946 [00:15<00:13, 137.60it/s] 52%|█████▏    | 2061/3946 [00:15<00:13, 136.92it/s] 53%|█████▎    | 2076/3946 [00:15<00:13, 139.06it/s] 53%|█████▎    | 2091/3946 [00:15<00:13, 139.82it/s] 53%|█████▎    | 2105/3946 [00:15<00:13, 139.82it/s] 54%|█████▎    | 2119/3946 [00:15<00:13, 138.73it/s] 54%|█████▍    | 2133/3946 [00:15<00:13, 137.27it/s] 54%|█████▍    | 2147/3946 [00:16<00:13, 132.62it/s] 55%|█████▍    | 2161/3946 [00:16<00:13, 132.13it/s] 55%|█████▌    | 2175/3946 [00:16<00:13, 128.71it/s] 55%|█████▌    | 2189/3946 [00:16<00:13, 129.24it/s] 56%|█████▌    | 2202/3946 [00:16<00:13, 128.29it/s] 56%|█████▌    | 2215/3946 [00:16<00:13, 124.91it/s] 56%|█████▋    | 2228/3946 [00:16<00:13, 125.23it/s] 57%|█████▋    | 2241/3946 [00:16<00:13, 124.32it/s] 57%|█████▋    | 2255/3946 [00:16<00:13, 123.94it/s] 58%|█████▊    | 2269/3946 [00:16<00:13, 127.74it/s] 58%|█████▊    | 2282/3946 [00:17<00:13, 127.17it/s] 58%|█████▊    | 2295/3946 [00:17<00:13, 126.50it/s] 58%|█████▊    | 2308/3946 [00:17<00:12, 126.40it/s] 59%|█████▉    | 2321/3946 [00:17<00:12, 127.37it/s] 59%|█████▉    | 2334/3946 [00:17<00:12, 124.72it/s] 60%|█████▉    | 2348/3946 [00:17<00:12, 128.57it/s] 60%|█████▉    | 2361/3946 [00:17<00:12, 125.61it/s] 60%|██████    | 2375/3946 [00:17<00:12, 127.59it/s] 61%|██████    | 2388/3946 [00:17<00:12, 124.72it/s] 61%|██████    | 2401/3946 [00:18<00:12, 121.48it/s] 61%|██████    | 2414/3946 [00:18<00:12, 122.79it/s] 62%|██████▏   | 2428/3946 [00:18<00:12, 123.49it/s] 62%|██████▏   | 2441/3946 [00:18<00:12, 120.63it/s] 62%|██████▏   | 2455/3946 [00:18<00:11, 124.63it/s] 63%|██████▎   | 2468/3946 [00:18<00:11, 124.90it/s] 63%|██████▎   | 2481/3946 [00:18<00:12, 119.46it/s] 63%|██████▎   | 2495/3946 [00:18<00:11, 124.17it/s] 64%|██████▎   | 2509/3946 [00:18<00:11, 126.36it/s] 64%|██████▍   | 2523/3946 [00:19<00:11, 124.94it/s] 64%|██████▍   | 2537/3946 [00:19<00:11, 122.33it/s] 65%|██████▍   | 2552/3946 [00:19<00:10, 128.21it/s] 65%|██████▌   | 2565/3946 [00:19<00:10, 126.27it/s] 65%|██████▌   | 2578/3946 [00:19<00:10, 124.92it/s] 66%|██████▌   | 2591/3946 [00:19<00:11, 121.83it/s] 66%|██████▌   | 2605/3946 [00:19<00:10, 122.41it/s] 66%|██████▋   | 2619/3946 [00:19<00:10, 125.48it/s] 67%|██████▋   | 2632/3946 [00:19<00:10, 121.67it/s] 67%|██████▋   | 2645/3946 [00:20<00:10, 123.28it/s] 67%|██████▋   | 2658/3946 [00:20<00:10, 123.03it/s] 68%|██████▊   | 2671/3946 [00:20<00:10, 119.70it/s] 68%|██████▊   | 2684/3946 [00:20<00:10, 121.10it/s] 68%|██████▊   | 2698/3946 [00:20<00:10, 122.68it/s] 69%|██████▊   | 2711/3946 [00:20<00:09, 123.55it/s] 69%|██████▉   | 2725/3946 [00:20<00:09, 123.55it/s] 69%|██████▉   | 2738/3946 [00:20<00:09, 125.37it/s] 70%|██████▉   | 2751/3946 [00:20<00:09, 125.22it/s] 70%|███████   | 2764/3946 [00:20<00:09, 123.03it/s] 70%|███████   | 2777/3946 [00:21<00:09, 123.27it/s] 71%|███████   | 2790/3946 [00:21<00:09, 123.62it/s] 71%|███████   | 2803/3946 [00:21<00:09, 120.65it/s] 71%|███████▏  | 2817/3946 [00:21<00:09, 121.81it/s] 72%|███████▏  | 2831/3946 [00:21<00:09, 122.35it/s] 72%|███████▏  | 2845/3946 [00:21<00:08, 123.40it/s] 72%|███████▏  | 2859/3946 [00:21<00:08, 126.97it/s] 73%|███████▎  | 2872/3946 [00:21<00:08, 124.59it/s] 73%|███████▎  | 2885/3946 [00:21<00:08, 120.98it/s] 73%|███████▎  | 2900/3946 [00:22<00:08, 125.22it/s] 74%|███████▍  | 2914/3946 [00:22<00:08, 128.06it/s] 74%|███████▍  | 2927/3946 [00:22<00:08, 125.46it/s] 75%|███████▍  | 2940/3946 [00:22<00:08, 125.05it/s] 75%|███████▍  | 2954/3946 [00:22<00:07, 128.12it/s] 75%|███████▌  | 2967/3946 [00:22<00:07, 125.91it/s] 76%|███████▌  | 2980/3946 [00:22<00:07, 126.44it/s] 76%|███████▌  | 2994/3946 [00:22<00:07, 129.09it/s] 76%|███████▌  | 3007/3946 [00:22<00:07, 127.09it/s] 77%|███████▋  | 3020/3946 [00:23<00:07, 122.44it/s] 77%|███████▋  | 3033/3946 [00:23<00:07, 123.23it/s] 77%|███████▋  | 3046/3946 [00:23<00:07, 124.23it/s] 78%|███████▊  | 3059/3946 [00:23<00:07, 118.28it/s] 78%|███████▊  | 3075/3946 [00:23<00:06, 129.05it/s] 78%|███████▊  | 3089/3946 [00:23<00:06, 126.26it/s] 79%|███████▊  | 3103/3946 [00:23<00:06, 128.42it/s] 79%|███████▉  | 3116/3946 [00:23<00:06, 124.44it/s] 79%|███████▉  | 3129/3946 [00:23<00:06, 124.91it/s] 80%|███████▉  | 3143/3946 [00:24<00:06, 126.94it/s] 80%|███████▉  | 3156/3946 [00:24<00:06, 122.73it/s] 80%|████████  | 3169/3946 [00:24<00:06, 122.19it/s] 81%|████████  | 3182/3946 [00:24<00:06, 116.09it/s] 81%|████████  | 3194/3946 [00:24<00:06, 109.36it/s] 81%|████████  | 3206/3946 [00:24<00:06, 105.87it/s] 82%|████████▏ | 3217/3946 [00:24<00:06, 106.39it/s] 82%|████████▏ | 3228/3946 [00:24<00:07, 101.28it/s] 82%|████████▏ | 3239/3946 [00:24<00:07, 97.86it/s]  82%|████████▏ | 3249/3946 [00:25<00:07, 94.29it/s] 83%|████████▎ | 3259/3946 [00:25<00:07, 92.99it/s] 83%|████████▎ | 3269/3946 [00:25<00:07, 90.58it/s] 83%|████████▎ | 3280/3946 [00:25<00:06, 95.61it/s] 83%|████████▎ | 3292/3946 [00:25<00:06, 101.22it/s] 84%|████████▎ | 3304/3946 [00:25<00:06, 102.40it/s] 84%|████████▍ | 3318/3946 [00:25<00:05, 109.65it/s] 84%|████████▍ | 3329/3946 [00:25<00:05, 109.47it/s] 85%|████████▍ | 3342/3946 [00:25<00:05, 114.68it/s] 85%|████████▍ | 3354/3946 [00:26<00:05, 112.79it/s] 85%|████████▌ | 3366/3946 [00:26<00:05, 113.45it/s] 86%|████████▌ | 3378/3946 [00:26<00:05, 111.75it/s] 86%|████████▌ | 3390/3946 [00:26<00:04, 113.30it/s] 86%|████████▌ | 3402/3946 [00:26<00:04, 111.66it/s] 87%|████████▋ | 3415/3946 [00:26<00:04, 115.42it/s] 87%|████████▋ | 3427/3946 [00:26<00:04, 113.72it/s] 87%|████████▋ | 3439/3946 [00:26<00:04, 114.34it/s] 87%|████████▋ | 3451/3946 [00:26<00:04, 112.91it/s] 88%|████████▊ | 3465/3946 [00:27<00:04, 119.09it/s] 88%|████████▊ | 3477/3946 [00:27<00:04, 115.35it/s] 88%|████████▊ | 3490/3946 [00:27<00:03, 116.97it/s] 89%|████████▊ | 3502/3946 [00:27<00:03, 111.63it/s] 89%|████████▉ | 3514/3946 [00:27<00:03, 110.63it/s] 89%|████████▉ | 3526/3946 [00:27<00:03, 109.47it/s] 90%|████████▉ | 3537/3946 [00:27<00:03, 106.40it/s] 90%|████████▉ | 3549/3946 [00:27<00:03, 107.30it/s] 90%|█████████ | 3561/3946 [00:27<00:03, 108.52it/s] 91%|█████████ | 3573/3946 [00:28<00:03, 110.61it/s] 91%|█████████ | 3586/3946 [00:28<00:03, 112.61it/s] 91%|█████████ | 3598/3946 [00:28<00:03, 110.98it/s] 92%|█████████▏| 3611/3946 [00:28<00:02, 114.08it/s] 92%|█████████▏| 3623/3946 [00:28<00:02, 112.26it/s] 92%|█████████▏| 3636/3946 [00:28<00:02, 116.68it/s] 92%|█████████▏| 3648/3946 [00:28<00:02, 116.04it/s] 93%|█████████▎| 3661/3946 [00:28<00:02, 116.57it/s] 93%|█████████▎| 3674/3946 [00:28<00:02, 117.21it/s] 93%|█████████▎| 3687/3946 [00:28<00:02, 116.19it/s] 94%|█████████▍| 3700/3946 [00:29<00:02, 118.50it/s] 94%|█████████▍| 3712/3946 [00:29<00:02, 113.13it/s] 94%|█████████▍| 3724/3946 [00:29<00:01, 113.30it/s] 95%|█████████▍| 3736/3946 [00:29<00:01, 111.68it/s] 95%|█████████▌| 3750/3946 [00:29<00:01, 116.97it/s] 95%|█████████▌| 3762/3946 [00:29<00:01, 112.21it/s] 96%|█████████▌| 3776/3946 [00:29<00:01, 118.77it/s] 96%|█████████▌| 3788/3946 [00:29<00:01, 118.28it/s] 96%|█████████▋| 3800/3946 [00:29<00:01, 117.63it/s] 97%|█████████▋| 3812/3946 [00:30<00:01, 116.11it/s] 97%|█████████▋| 3824/3946 [00:30<00:01, 111.31it/s] 97%|█████████▋| 3836/3946 [00:30<00:00, 110.69it/s] 98%|█████████▊| 3848/3946 [00:30<00:00, 107.66it/s] 98%|█████████▊| 3860/3946 [00:30<00:00, 110.91it/s] 98%|█████████▊| 3873/3946 [00:30<00:00, 114.88it/s] 98%|█████████▊| 3885/3946 [00:30<00:00, 115.37it/s] 99%|█████████▉| 3897/3946 [00:30<00:00, 116.45it/s] 99%|█████████▉| 3909/3946 [00:30<00:00, 114.13it/s] 99%|█████████▉| 3921/3946 [00:31<00:00, 114.63it/s]100%|█████████▉| 3933/3946 [00:31<00:00, 111.72it/s]100%|█████████▉| 3945/3946 [00:31<00:00, 112.67it/s]100%|██████████| 3946/3946 [00:31<00:00, 126.23it/s]
+Start Training...
+Epoch 1 Step 1 Train Loss: 0.2309
+Epoch 1 Step 51 Train Loss: 0.2643
+Epoch 1 Step 101 Train Loss: 0.2160
+Epoch 1 Step 151 Train Loss: 0.2221
+Epoch 1 Step 201 Train Loss: 0.2049
+Epoch 1 Step 251 Train Loss: 0.2019
+Epoch 1 Step 301 Train Loss: 0.2266
+Epoch 1 Step 351 Train Loss: 0.2258
+Epoch 1 Step 401 Train Loss: 0.2205
+Epoch 1 Step 451 Train Loss: 0.2161
+Epoch 1 Step 501 Train Loss: 0.2104
+Epoch 1 Step 551 Train Loss: 0.1955
+Epoch 1 Step 601 Train Loss: 0.2320
+Epoch 1 Step 651 Train Loss: 0.2014
+Epoch 1 Step 701 Train Loss: 0.2274
+Epoch 1 Step 751 Train Loss: 0.2169
+Epoch 1 Step 801 Train Loss: 0.2066
+Epoch 1 Step 851 Train Loss: 0.2101
+Epoch 1 Step 901 Train Loss: 0.1948
+Epoch 1 Step 951 Train Loss: 0.1931
+Epoch 1: Train Overall MSE: 0.0010 Validation Overall MSE: 0.0010. 
+Train Top 20 DE MSE: 0.0505 Validation Top 20 DE MSE: 0.0449. 
+Epoch 2 Step 1 Train Loss: 0.1888
+Epoch 2 Step 51 Train Loss: 0.1855
+Epoch 2 Step 101 Train Loss: 0.1808
+Epoch 2 Step 151 Train Loss: 0.2111
+Epoch 2 Step 201 Train Loss: 0.1848
+Epoch 2 Step 251 Train Loss: 0.1909
+Epoch 2 Step 301 Train Loss: 0.1870
+Epoch 2 Step 351 Train Loss: 0.1739
+Epoch 2 Step 401 Train Loss: 0.1923
+Epoch 2 Step 451 Train Loss: 0.2109
+Epoch 2 Step 501 Train Loss: 0.1744
+Epoch 2 Step 551 Train Loss: 0.1821
+Epoch 2 Step 601 Train Loss: 0.1765
+Epoch 2 Step 651 Train Loss: 0.1573
+Epoch 2 Step 701 Train Loss: 0.1765
+Epoch 2 Step 751 Train Loss: 0.1789
+Epoch 2 Step 801 Train Loss: 0.2099
+Epoch 2 Step 851 Train Loss: 0.1727
+Epoch 2 Step 901 Train Loss: 0.1921
+Epoch 2 Step 951 Train Loss: 0.1777
+Epoch 2: Train Overall MSE: 0.0007 Validation Overall MSE: 0.0007. 
+Train Top 20 DE MSE: 0.0182 Validation Top 20 DE MSE: 0.0181. 
+Epoch 3 Step 1 Train Loss: 0.1761
+Epoch 3 Step 51 Train Loss: 0.1631
+Epoch 3 Step 101 Train Loss: 0.1640
+Epoch 3 Step 151 Train Loss: 0.1972
+Epoch 3 Step 201 Train Loss: 0.1459
+Epoch 3 Step 251 Train Loss: 0.1509
+Epoch 3 Step 301 Train Loss: 0.1672
+Epoch 3 Step 351 Train Loss: 0.1710
+Epoch 3 Step 401 Train Loss: 0.1776
+Epoch 3 Step 451 Train Loss: 0.1459
+Epoch 3 Step 501 Train Loss: 0.1625
+Epoch 3 Step 551 Train Loss: 0.1784
+Epoch 3 Step 601 Train Loss: 0.1679
+Epoch 3 Step 651 Train Loss: 0.1865
+Epoch 3 Step 701 Train Loss: 0.1558
+Epoch 3 Step 751 Train Loss: 0.1699
+Epoch 3 Step 801 Train Loss: 0.1584
+Epoch 3 Step 851 Train Loss: 0.1723
+Epoch 3 Step 901 Train Loss: 0.1900
+Epoch 3 Step 951 Train Loss: 0.1737
+Epoch 3: Train Overall MSE: 0.0006 Validation Overall MSE: 0.0007. 
+Train Top 20 DE MSE: 0.0140 Validation Top 20 DE MSE: 0.0217. 
+Epoch 4 Step 1 Train Loss: 0.1692
+Epoch 4 Step 51 Train Loss: 0.1831
+Epoch 4 Step 101 Train Loss: 0.1862
+Epoch 4 Step 151 Train Loss: 0.1467
+Epoch 4 Step 201 Train Loss: 0.1766
+Epoch 4 Step 251 Train Loss: 0.1401
+Epoch 4 Step 301 Train Loss: 0.1600
+Epoch 4 Step 351 Train Loss: 0.1572
+Epoch 4 Step 401 Train Loss: 0.1490
+Epoch 4 Step 451 Train Loss: 0.1695
+Epoch 4 Step 501 Train Loss: 0.1914
+Epoch 4 Step 551 Train Loss: 0.1760
+Epoch 4 Step 601 Train Loss: 0.1946
+Epoch 4 Step 651 Train Loss: 0.1548
+Epoch 4 Step 701 Train Loss: 0.1774
+Epoch 4 Step 751 Train Loss: 0.1930
+Epoch 4 Step 801 Train Loss: 0.1561
+Epoch 4 Step 851 Train Loss: 0.1744
+Epoch 4 Step 901 Train Loss: 0.1560
+Epoch 4 Step 951 Train Loss: 0.1598
+Epoch 4: Train Overall MSE: 0.0006 Validation Overall MSE: 0.0008. 
+Train Top 20 DE MSE: 0.0065 Validation Top 20 DE MSE: 0.0202. 
+Epoch 5 Step 1 Train Loss: 0.1707
+Epoch 5 Step 51 Train Loss: 0.1535
+Epoch 5 Step 101 Train Loss: 0.1515
+Epoch 5 Step 151 Train Loss: 0.1675
+Epoch 5 Step 201 Train Loss: 0.1851
+Epoch 5 Step 251 Train Loss: 0.1820
+Epoch 5 Step 301 Train Loss: 0.1594
+Epoch 5 Step 351 Train Loss: 0.1588
+Epoch 5 Step 401 Train Loss: 0.1831
+Epoch 5 Step 451 Train Loss: 0.1714
+Epoch 5 Step 501 Train Loss: 0.1750
+Epoch 5 Step 551 Train Loss: 0.1540
+Epoch 5 Step 601 Train Loss: 0.1951
+Epoch 5 Step 651 Train Loss: 0.1760
+Epoch 5 Step 701 Train Loss: 0.1756
+Epoch 5 Step 751 Train Loss: 0.1774
+Epoch 5 Step 801 Train Loss: 0.1440
+Epoch 5 Step 851 Train Loss: 0.1641
+Epoch 5 Step 901 Train Loss: 0.1678
+Epoch 5 Step 951 Train Loss: 0.1789
+Epoch 5: Train Overall MSE: 0.0005 Validation Overall MSE: 0.0007. 
+Train Top 20 DE MSE: 0.0087 Validation Top 20 DE MSE: 0.0250. 
+Epoch 6 Step 1 Train Loss: 0.1700
+Epoch 6 Step 51 Train Loss: 0.1790
+Epoch 6 Step 101 Train Loss: 0.1507
+Epoch 6 Step 151 Train Loss: 0.1770
+Epoch 6 Step 201 Train Loss: 0.1719
+Epoch 6 Step 251 Train Loss: 0.1647
+Epoch 6 Step 301 Train Loss: 0.1539
+Epoch 6 Step 351 Train Loss: 0.1459
+Epoch 6 Step 401 Train Loss: 0.1742
+Epoch 6 Step 451 Train Loss: 0.1543
+Epoch 6 Step 501 Train Loss: 0.1491
+Epoch 6 Step 551 Train Loss: 0.1529
+Epoch 6 Step 601 Train Loss: 0.1361
+Epoch 6 Step 651 Train Loss: 0.1895
+Epoch 6 Step 701 Train Loss: 0.1270
+Epoch 6 Step 751 Train Loss: 0.1504
+Epoch 6 Step 801 Train Loss: 0.1469
+Epoch 6 Step 851 Train Loss: 0.1756
+Epoch 6 Step 901 Train Loss: 0.1467
+Epoch 6 Step 951 Train Loss: 0.1590
+Epoch 6: Train Overall MSE: 0.0005 Validation Overall MSE: 0.0007. 
+Train Top 20 DE MSE: 0.0091 Validation Top 20 DE MSE: 0.0226. 
+Epoch 7 Step 1 Train Loss: 0.1505
+Epoch 7 Step 51 Train Loss: 0.1761
+Epoch 7 Step 101 Train Loss: 0.1762
+Epoch 7 Step 151 Train Loss: 0.1689
+Epoch 7 Step 201 Train Loss: 0.1432
+Epoch 7 Step 251 Train Loss: 0.1682
+Epoch 7 Step 301 Train Loss: 0.1438
+Epoch 7 Step 351 Train Loss: 0.1649
+Epoch 7 Step 401 Train Loss: 0.1421
+Epoch 7 Step 451 Train Loss: 0.1803
+Epoch 7 Step 501 Train Loss: 0.1443
+Epoch 7 Step 551 Train Loss: 0.1931
+Epoch 7 Step 601 Train Loss: 0.2016
+Epoch 7 Step 651 Train Loss: 0.1363
+Epoch 7 Step 701 Train Loss: 0.1623
+Epoch 7 Step 751 Train Loss: 0.1717
+Epoch 7 Step 801 Train Loss: 0.1649
+Epoch 7 Step 851 Train Loss: 0.1846
+Epoch 7 Step 901 Train Loss: 0.1682
+Epoch 7 Step 951 Train Loss: 0.1586
+Epoch 7: Train Overall MSE: 0.0005 Validation Overall MSE: 0.0007. 
+Train Top 20 DE MSE: 0.0076 Validation Top 20 DE MSE: 0.0190. 
+Epoch 8 Step 1 Train Loss: 0.1531
+Epoch 8 Step 51 Train Loss: 0.1442
+Epoch 8 Step 101 Train Loss: 0.1612
+Epoch 8 Step 151 Train Loss: 0.1536
+Epoch 8 Step 201 Train Loss: 0.1758
+Epoch 8 Step 251 Train Loss: 0.1697
+Epoch 8 Step 301 Train Loss: 0.1572
+Epoch 8 Step 351 Train Loss: 0.1825
+Epoch 8 Step 401 Train Loss: 0.1977
+Epoch 8 Step 451 Train Loss: 0.1528
+Epoch 8 Step 501 Train Loss: 0.1449
+Epoch 8 Step 551 Train Loss: 0.1397
+Epoch 8 Step 601 Train Loss: 0.1713
+Epoch 8 Step 651 Train Loss: 0.1526
+Epoch 8 Step 701 Train Loss: 0.1562
+Epoch 8 Step 751 Train Loss: 0.1634
+Epoch 8 Step 801 Train Loss: 0.1563
+Epoch 8 Step 851 Train Loss: 0.1752
+Epoch 8 Step 901 Train Loss: 0.1467
+Epoch 8 Step 951 Train Loss: 0.1620
+Epoch 8: Train Overall MSE: 0.0005 Validation Overall MSE: 0.0008. 
+Train Top 20 DE MSE: 0.0091 Validation Top 20 DE MSE: 0.0244. 
+Epoch 9 Step 1 Train Loss: 0.1529
+Epoch 9 Step 51 Train Loss: 0.1693
+Epoch 9 Step 101 Train Loss: 0.1638
+Epoch 9 Step 151 Train Loss: 0.1681
+Epoch 9 Step 201 Train Loss: 0.1562
+Epoch 9 Step 251 Train Loss: 0.1605
+Epoch 9 Step 301 Train Loss: 0.1348
+Epoch 9 Step 351 Train Loss: 0.1436
+Epoch 9 Step 401 Train Loss: 0.1426
+Epoch 9 Step 451 Train Loss: 0.1700
+Epoch 9 Step 501 Train Loss: 0.1535
+Epoch 9 Step 551 Train Loss: 0.1400
+Epoch 9 Step 601 Train Loss: 0.1246
+Epoch 9 Step 651 Train Loss: 0.1315
+Epoch 9 Step 701 Train Loss: 0.1582
+Epoch 9 Step 751 Train Loss: 0.1519
+Epoch 9 Step 801 Train Loss: 0.1630
+Epoch 9 Step 851 Train Loss: 0.1569
+Epoch 9 Step 901 Train Loss: 0.1770
+Epoch 9 Step 951 Train Loss: 0.1433
+Epoch 9: Train Overall MSE: 0.0005 Validation Overall MSE: 0.0008. 
+Train Top 20 DE MSE: 0.0080 Validation Top 20 DE MSE: 0.0245. 
+Epoch 10 Step 1 Train Loss: 0.1519
+Epoch 10 Step 51 Train Loss: 0.1484
+Epoch 10 Step 101 Train Loss: 0.1487
+Epoch 10 Step 151 Train Loss: 0.1666
+Epoch 10 Step 201 Train Loss: 0.1613
+Epoch 10 Step 251 Train Loss: 0.1619
+Epoch 10 Step 301 Train Loss: 0.1372
+Epoch 10 Step 351 Train Loss: 0.1423
+Epoch 10 Step 401 Train Loss: 0.1700
+Epoch 10 Step 451 Train Loss: 0.1646
+Epoch 10 Step 501 Train Loss: 0.1738
+Epoch 10 Step 551 Train Loss: 0.1602
+Epoch 10 Step 601 Train Loss: 0.1587
+Epoch 10 Step 651 Train Loss: 0.1663
+Epoch 10 Step 701 Train Loss: 0.1544
+Epoch 10 Step 751 Train Loss: 0.1733
+Epoch 10 Step 801 Train Loss: 0.1725
+Epoch 10 Step 851 Train Loss: 0.1380
+Epoch 10 Step 901 Train Loss: 0.1616
+Epoch 10 Step 951 Train Loss: 0.1770
+Epoch 10: Train Overall MSE: 0.0005 Validation Overall MSE: 0.0008. 
+Train Top 20 DE MSE: 0.0086 Validation Top 20 DE MSE: 0.0244. 
+Epoch 11 Step 1 Train Loss: 0.1507
+Epoch 11 Step 51 Train Loss: 0.1387
+Epoch 11 Step 101 Train Loss: 0.1650
+Epoch 11 Step 151 Train Loss: 0.1394
+Epoch 11 Step 201 Train Loss: 0.1592
+Epoch 11 Step 251 Train Loss: 0.1546
+Epoch 11 Step 301 Train Loss: 0.1383
+Epoch 11 Step 351 Train Loss: 0.1533
+Epoch 11 Step 401 Train Loss: 0.1326
+Epoch 11 Step 451 Train Loss: 0.1673
+Epoch 11 Step 501 Train Loss: 0.1796
+Epoch 11 Step 551 Train Loss: 0.1502
+Epoch 11 Step 601 Train Loss: 0.1565
+Epoch 11 Step 651 Train Loss: 0.1616
+Epoch 11 Step 701 Train Loss: 0.1880
+Epoch 11 Step 751 Train Loss: 0.1352
+Epoch 11 Step 801 Train Loss: 0.1709
+Epoch 11 Step 851 Train Loss: 0.1470
+Epoch 11 Step 901 Train Loss: 0.1536
+Epoch 11 Step 951 Train Loss: 0.1532
+Epoch 11: Train Overall MSE: 0.0005 Validation Overall MSE: 0.0007. 
+Train Top 20 DE MSE: 0.0086 Validation Top 20 DE MSE: 0.0190. 
+Epoch 12 Step 1 Train Loss: 0.1439
+Epoch 12 Step 51 Train Loss: 0.1858
+Epoch 12 Step 101 Train Loss: 0.1723
+Epoch 12 Step 151 Train Loss: 0.1699
+Epoch 12 Step 201 Train Loss: 0.1482
+Epoch 12 Step 251 Train Loss: 0.1402
+Epoch 12 Step 301 Train Loss: 0.1917
+Epoch 12 Step 351 Train Loss: 0.1496
+Epoch 12 Step 401 Train Loss: 0.1440
+Epoch 12 Step 451 Train Loss: 0.1491
+Epoch 12 Step 501 Train Loss: 0.1675
+Epoch 12 Step 551 Train Loss: 0.1245
+Epoch 12 Step 601 Train Loss: 0.2149
+Epoch 12 Step 651 Train Loss: 0.1461
+Epoch 12 Step 701 Train Loss: 0.1619
+Epoch 12 Step 751 Train Loss: 0.1375
+Epoch 12 Step 801 Train Loss: 0.1615
+Epoch 12 Step 851 Train Loss: 0.1522
+Epoch 12 Step 901 Train Loss: 0.1787
+Epoch 12 Step 951 Train Loss: 0.1519
+Epoch 12: Train Overall MSE: 0.0005 Validation Overall MSE: 0.0007. 
+Train Top 20 DE MSE: 0.0086 Validation Top 20 DE MSE: 0.0214. 
+Epoch 13 Step 1 Train Loss: 0.1672
+Epoch 13 Step 51 Train Loss: 0.1774
+Epoch 13 Step 101 Train Loss: 0.1494
+Epoch 13 Step 151 Train Loss: 0.1657
+Epoch 13 Step 201 Train Loss: 0.1283
+Epoch 13 Step 251 Train Loss: 0.1548
+Epoch 13 Step 301 Train Loss: 0.1736
+Epoch 13 Step 351 Train Loss: 0.1446
+Epoch 13 Step 401 Train Loss: 0.1718
+Epoch 13 Step 451 Train Loss: 0.1570
+Epoch 13 Step 501 Train Loss: 0.1599
+Epoch 13 Step 551 Train Loss: 0.1636
+Epoch 13 Step 601 Train Loss: 0.1659
+Epoch 13 Step 651 Train Loss: 0.1377
+Epoch 13 Step 701 Train Loss: 0.1552
+Epoch 13 Step 751 Train Loss: 0.1662
+Epoch 13 Step 801 Train Loss: 0.1540
+Epoch 13 Step 851 Train Loss: 0.1454
+Epoch 13 Step 901 Train Loss: 0.1655
+Epoch 13 Step 951 Train Loss: 0.1494
+Epoch 13: Train Overall MSE: 0.0005 Validation Overall MSE: 0.0008. 
+Train Top 20 DE MSE: 0.0084 Validation Top 20 DE MSE: 0.0255. 
+Epoch 14 Step 1 Train Loss: 0.1403
+Epoch 14 Step 51 Train Loss: 0.1492
+Epoch 14 Step 101 Train Loss: 0.1509
+Epoch 14 Step 151 Train Loss: 0.1710
+Epoch 14 Step 201 Train Loss: 0.1654
+Epoch 14 Step 251 Train Loss: 0.1792
+Epoch 14 Step 301 Train Loss: 0.1605
+Epoch 14 Step 351 Train Loss: 0.1872
+Epoch 14 Step 401 Train Loss: 0.1909
+Epoch 14 Step 451 Train Loss: 0.1366
+Epoch 14 Step 501 Train Loss: 0.1453
+Epoch 14 Step 551 Train Loss: 0.1634
+Epoch 14 Step 601 Train Loss: 0.1377
+Epoch 14 Step 651 Train Loss: 0.1561
+Epoch 14 Step 701 Train Loss: 0.1662
+Epoch 14 Step 751 Train Loss: 0.1603
+Epoch 14 Step 801 Train Loss: 0.1741
+Epoch 14 Step 851 Train Loss: 0.1658
+Epoch 14 Step 901 Train Loss: 0.1463
+Epoch 14 Step 951 Train Loss: 0.1487
+Epoch 14: Train Overall MSE: 0.0005 Validation Overall MSE: 0.0009. 
+Train Top 20 DE MSE: 0.0076 Validation Top 20 DE MSE: 0.0266. 
+Epoch 15 Step 1 Train Loss: 0.1532
+Epoch 15 Step 51 Train Loss: 0.1734
+Epoch 15 Step 101 Train Loss: 0.1625
+Epoch 15 Step 151 Train Loss: 0.1550
+Epoch 15 Step 201 Train Loss: 0.1454
+Epoch 15 Step 251 Train Loss: 0.1697
+Epoch 15 Step 301 Train Loss: 0.1677
+Epoch 15 Step 351 Train Loss: 0.1553
+Epoch 15 Step 401 Train Loss: 0.1413
+Epoch 15 Step 451 Train Loss: 0.1320
+Epoch 15 Step 501 Train Loss: 0.1378
+Epoch 15 Step 551 Train Loss: 0.1551
+Epoch 15 Step 601 Train Loss: 0.1874
+Epoch 15 Step 651 Train Loss: 0.1688
+Epoch 15 Step 701 Train Loss: 0.1455
+Epoch 15 Step 751 Train Loss: 0.1474
+Epoch 15 Step 801 Train Loss: 0.1504
+Epoch 15 Step 851 Train Loss: 0.1598
+Epoch 15 Step 901 Train Loss: 0.1450
+Epoch 15 Step 951 Train Loss: 0.1506
+Epoch 15: Train Overall MSE: 0.0005 Validation Overall MSE: 0.0008. 
+Train Top 20 DE MSE: 0.0075 Validation Top 20 DE MSE: 0.0250. 
+Done!
+Start Testing...
+Best performing model: Test Top 20 DE MSE: 0.0239
+Start doing subgroup analysis for simulation split...
+test_combo_seen0_mse: nan
+test_combo_seen0_pearson: nan
+test_combo_seen0_mse_de: nan
+test_combo_seen0_pearson_de: nan
+test_combo_seen1_mse: nan
+test_combo_seen1_pearson: nan
+test_combo_seen1_mse_de: nan
+test_combo_seen1_pearson_de: nan
+test_combo_seen2_mse: nan
+test_combo_seen2_pearson: nan
+test_combo_seen2_mse_de: nan
+test_combo_seen2_pearson_de: nan
+test_unseen_single_mse: 0.0006223006
+test_unseen_single_pearson: 0.9961211847156086
+test_unseen_single_mse_de: 0.023892317
+test_unseen_single_pearson_de: 0.9686823282354453
+test_combo_seen0_pearson_delta: nan
+test_combo_seen0_frac_opposite_direction_top20_non_dropout: nan
+test_combo_seen0_frac_sigma_below_1_non_dropout: nan
+test_combo_seen0_mse_top20_de_non_dropout: nan
+test_combo_seen1_pearson_delta: nan
+test_combo_seen1_frac_opposite_direction_top20_non_dropout: nan
+test_combo_seen1_frac_sigma_below_1_non_dropout: nan
+test_combo_seen1_mse_top20_de_non_dropout: nan
+test_combo_seen2_pearson_delta: nan
+test_combo_seen2_frac_opposite_direction_top20_non_dropout: nan
+test_combo_seen2_frac_sigma_below_1_non_dropout: nan
+test_combo_seen2_mse_top20_de_non_dropout: nan
+test_unseen_single_pearson_delta: 0.7109967159503219
+test_unseen_single_frac_opposite_direction_top20_non_dropout: 0.01
+test_unseen_single_frac_sigma_below_1_non_dropout: 0.9
+test_unseen_single_mse_top20_de_non_dropout: 0.023892317
+Done!
+Saving edge_list to file
+[1;34mwandb[0m: 
+[1;34mwandb[0m: You can sync this run to the cloud by running:
+[1;34mwandb[0m: [1mwandb sync /data/projects/31010032/xuanhong/GEARS/model_fig_2/dixit/gears/wandb/seed_1/wandb/offline-run-20260306_111919-4y1958vy[0m
+[1;34mwandb[0m: Find logs at: [1;35m../wandb/seed_1/wandb/offline-run-20260306_111919-4y1958vy/logs[0m
+Elapsed: 791 s
