@@ -1,0 +1,135 @@
+[INFO] STUDY_NAME=hyperparameters
+[INFO] STORAGE=sqlite:////data/projects/31010032/xuanhong/GEARS/downstreak/optuna_2/gears_hpo.db
+[INFO] SAVE_PATH=/data/projects/31010032/xuanhong/GEARS/downstreak/beyesian_para
+[INFO] DATA_NAME=norman
+[INFO] DEVICE=cuda:0
+[INFO] ROUNDS=2
+[INFO] WORKERS_PER_ROUND=2
+[INFO] LOG_DIR=/data/projects/31010032/xuanhong/GEARS/downstreak/log
+==================================================
+[ROUND 1/2] submit workers
+==================================================
+[INFO] wrote worker PBS: /data/projects/31010032/xuanhong/GEARS/downstreak/gears_r_1_w_1.pbs
+[SUBMIT] round=1 worker=1 job_id=138155.pbs111 job_name=gears_r_1_w_1
+[INFO] wrote worker PBS: /data/projects/31010032/xuanhong/GEARS/downstreak/gears_r_1_w_2.pbs
+[SUBMIT] round=1 worker=2 job_id=138156.pbs111 job_name=gears_r_1_w_2
+[INFO] round 1 submitted jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] waiting for jobs: 138155.pbs111 138156.pbs111
+[INFO] round 1 all workers finished
+[INFO] exporting study summary after round 1
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/scanpy/_utils/__init__.py:27: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('anndata')` instead.
+  from anndata import __version__ as anndata_version
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_csv from `anndata` is deprecated. Import anndata.io.read_csv instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_excel from `anndata` is deprecated. Import anndata.io.read_excel instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_hdf from `anndata` is deprecated. Import anndata.io.read_hdf instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_loom from `anndata` is deprecated. Import anndata.io.read_loom instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_mtx from `anndata` is deprecated. Import anndata.io.read_mtx instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_text from `anndata` is deprecated. Import anndata.io.read_text instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_umi_tools from `anndata` is deprecated. Import anndata.io.read_umi_tools instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+Best trial:
+  Value: 0.2424
+  Params: {'hidden_size': 16, 'epochs': 26, 'lr': 5.3196876635499066e-05, 'weight_decay': 2.484912606443544e-07}
+[INFO] round 1 summary exported
+==================================================
+[ROUND 2/2] submit workers
+==================================================
+[INFO] wrote worker PBS: /data/projects/31010032/xuanhong/GEARS/downstreak/gears_r_2_w_1.pbs
+[SUBMIT] round=2 worker=1 job_id=138157.pbs111 job_name=gears_r_2_w_1
+[INFO] wrote worker PBS: /data/projects/31010032/xuanhong/GEARS/downstreak/gears_r_2_w_2.pbs
+[SUBMIT] round=2 worker=2 job_id=138158.pbs111 job_name=gears_r_2_w_2
+[INFO] round 2 submitted jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] waiting for jobs: 138157.pbs111 138158.pbs111
+[INFO] round 2 all workers finished
+[INFO] exporting study summary after round 2
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/scanpy/_utils/__init__.py:27: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('anndata')` instead.
+  from anndata import __version__ as anndata_version
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_csv from `anndata` is deprecated. Import anndata.io.read_csv instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_excel from `anndata` is deprecated. Import anndata.io.read_excel instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_hdf from `anndata` is deprecated. Import anndata.io.read_hdf instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_loom from `anndata` is deprecated. Import anndata.io.read_loom instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_mtx from `anndata` is deprecated. Import anndata.io.read_mtx instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_text from `anndata` is deprecated. Import anndata.io.read_text instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+/home/users/nus/jun_lu/.conda/envs/GEARS/lib/python3.11/site-packages/anndata/__init__.py:70: FutureWarning: Importing read_umi_tools from `anndata` is deprecated. Import anndata.io.read_umi_tools instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+Best trial:
+  Value: 0.2424
+  Params: {'hidden_size': 16, 'epochs': 26, 'lr': 5.3196876635499066e-05, 'weight_decay': 2.484912606443544e-07}
+[INFO] round 2 summary exported
+==================================================
+[DONE] all rounds finished
+==================================================

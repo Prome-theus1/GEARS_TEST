@@ -1,0 +1,154 @@
+#!/bin/bash
+#PBS -N hpo_supervisor
+#PBS -l select=1:ncpus=1:mem=10G
+#PBS -l walltime=24:00:00
+#PBS -P 31010032
+#PBS -j oe
+#PBS -o hpo_supervisor.log
+#PBS -q normal
+
+set -euo pipefail
+
+cd "$PBS_O_WORKDIR"
+
+module load miniforge3/24.3.0
+conda activate GEARS
+module load cuda/11.8.0
+module load cudnn/11-8.9.7.29
+
+export WANDB_MODE=offline
+export WANDB_DIR="/data/projects/31010032/xuanhong/GEARS/downstreak"
+mkdir -p "$WANDB_DIR"
+
+# =========================
+# User config
+# =========================
+STUDY_NAME="hyperparameters"
+STORAGE="sqlite:////data/projects/31010032/xuanhong/GEARS/downstreak/optuna_2/gears_hpo.db"
+SAVE_PATH="/data/projects/31010032/xuanhong/GEARS/downstreak/beyesian_para"
+
+DATA_NAME="norman"
+DATA_PATH="./data"
+DEVICE="cuda:0"
+SEED=1
+BATCH_SIZE=32
+TEST_BATCH_SIZE=128
+
+ROUNDS=2
+WORKERS_PER_ROUND=2
+
+LOG_DIR="/data/projects/31010032/xuanhong/GEARS/downstreak/log"
+mkdir -p "$SAVE_PATH"
+mkdir -p "/data/projects/31010032/xuanhong/GEARS/downstreak/optuna_2"
+mkdir -p "$LOG_DIR"
+
+echo "[INFO] STUDY_NAME=$STUDY_NAME"
+echo "[INFO] STORAGE=$STORAGE"
+echo "[INFO] SAVE_PATH=$SAVE_PATH"
+echo "[INFO] DATA_NAME=$DATA_NAME"
+echo "[INFO] DEVICE=$DEVICE"
+echo "[INFO] ROUNDS=$ROUNDS"
+echo "[INFO] WORKERS_PER_ROUND=$WORKERS_PER_ROUND"
+echo "[INFO] LOG_DIR=$LOG_DIR"
+
+# =========================
+# Helper: wait jobs
+# =========================
+wait_for_jobs() {
+    local ids=("$@")
+    local remaining=1
+
+    while true; do
+        remaining=0
+        for jid in "${ids[@]}"; do
+            if qstat "$jid" >/dev/null 2>&1; then
+                remaining=1
+                break
+            fi
+        done
+
+        if [[ "$remaining" -eq 0 ]]; then
+            break
+        fi
+
+        echo "[INFO] waiting for jobs: ${ids[*]}"
+        sleep 60
+    done
+}
+
+# =========================
+# Main loop
+# =========================
+for (( round=1; round<=ROUNDS; round++ )); do
+    echo "=================================================="
+    echo "[ROUND $round/$ROUNDS] submit workers"
+    echo "=================================================="
+
+    job_ids=()
+
+    for (( i=1; i<=WORKERS_PER_ROUND; i++ )); do
+        JOB_TAG="gears_r_${round}_w_${i}"
+        WORKER_PBS="${PBS_O_WORKDIR}/${JOB_TAG}.pbs"
+
+        cat > "$WORKER_PBS" <<EOF
+#!/bin/bash
+#PBS -N ${JOB_TAG}
+#PBS -l select=1:ncpus=4:ngpus=1:mem=400G
+#PBS -l walltime=24:00:00
+#PBS -j oe
+#PBS -o ${LOG_DIR}/${JOB_TAG}.log
+#PBS -P 31010032
+#PBS -q normal
+
+set -euo pipefail
+
+cd "\$PBS_O_WORKDIR"
+
+module load miniforge3/24.3.0
+conda activate GEARS
+module load cuda/11.8.0
+module load cudnn/11-8.9.7.29
+
+export WANDB_MODE=offline
+export WANDB_DIR="/data/projects/31010032/xuanhong/GEARS/downstreak"
+mkdir -p "\$WANDB_DIR"
+
+python adjust_hyperparameter.py \
+  --study_name "$STUDY_NAME" \
+  --storage "$STORAGE" \
+  --save_path "$SAVE_PATH" \
+  --data_name "$DATA_NAME" \
+  --data_path "$DATA_PATH" \
+  --device "$DEVICE" \
+  --seed "$SEED" \
+  --batch_size "$BATCH_SIZE" \
+  --test_batch_size "$TEST_BATCH_SIZE" \
+  --worker_mode para
+EOF
+
+        chmod +x "$WORKER_PBS"
+        echo "[INFO] wrote worker PBS: $WORKER_PBS"
+
+        submit_out=$(qsub "$WORKER_PBS")
+        jid=$(echo "$submit_out" | awk '{print $1}')
+        job_ids+=("$jid")
+        echo "[SUBMIT] round=$round worker=$i job_id=$jid job_name=$JOB_TAG"
+    done
+
+    echo "[INFO] round $round submitted jobs: ${job_ids[*]}"
+    wait_for_jobs "${job_ids[@]}"
+    echo "[INFO] round $round all workers finished"
+
+    echo "[INFO] exporting study summary after round $round"
+    python adjust_hyperparameter.py \
+      --study_name "$STUDY_NAME" \
+      --storage "$STORAGE" \
+      --save_path "$SAVE_PATH" \
+      --export_only
+
+    echo "[INFO] round $round summary exported"
+done
+
+echo "=================================================="
+echo "[DONE] all rounds finished"
+echo "=================================================="

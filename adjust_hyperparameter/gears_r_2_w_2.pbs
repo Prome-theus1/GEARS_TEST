@@ -1,0 +1,23 @@
+#!/bin/bash
+#PBS -N gears_r_2_w_2
+#PBS -l select=1:ncpus=4:ngpus=1:mem=400G
+#PBS -l walltime=24:00:00
+#PBS -j oe
+#PBS -o /data/projects/31010032/xuanhong/GEARS/downstreak/log/gears_r_2_w_2.log
+#PBS -P 31010032
+#PBS -q normal
+
+set -euo pipefail
+
+cd "$PBS_O_WORKDIR"
+
+module load miniforge3/24.3.0
+conda activate GEARS
+module load cuda/11.8.0
+module load cudnn/11-8.9.7.29
+
+export WANDB_MODE=offline
+export WANDB_DIR="/data/projects/31010032/xuanhong/GEARS/downstreak"
+mkdir -p "$WANDB_DIR"
+
+python adjust_hyperparameter.py   --study_name "hyperparameters"   --storage "sqlite:////data/projects/31010032/xuanhong/GEARS/downstreak/optuna_2/gears_hpo.db"   --save_path "/data/projects/31010032/xuanhong/GEARS/downstreak/beyesian_para"   --data_name "norman"   --data_path "./data"   --device "cuda:0"   --seed "1"   --batch_size "32"   --test_batch_size "128"   --worker_mode para

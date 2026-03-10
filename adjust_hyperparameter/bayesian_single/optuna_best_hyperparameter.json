@@ -1,0 +1,9 @@
+{
+  "best_value": 0.4029,
+  "best_params": {
+    "hidden_size": 16,
+    "epochs": 31,
+    "lr": 2.5639201733163117e-06,
+    "weight_decay": 0.00024580300161477673
+  }
+}
